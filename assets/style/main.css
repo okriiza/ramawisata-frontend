@@ -2,13 +2,13 @@ body {
   font-family: 'Assistant', sans-serif;
 }
 
-.bg-green {
-  background-color: #1FAB89;
+.bg-red {
+  background-color: #dc3545;
   color: #fff;
 }
 
-.text-green {
-  color: #1FAB89;
+.text-red {
+  color: #dc3545;
 }
 
 header {
@@ -33,13 +33,13 @@ header p {
 }
 
 header .btn-getstarted {
-  background-color: #1FAB89;
+  background-color: #dc3545;
   color: #fff;
 }
 
 header .btn-getstarted:hover {
-  background-color: #62d2a2;
-  color: #fff;
+  background-color: #fff;
+  color: #dc3545;
 }
 
 .section-paket-pariwisata {
@@ -98,18 +98,18 @@ header .btn-getstarted:hover {
 }
 
 .section-paket-content .section-paket-list .card-pariwisata .card-pariwisata-overlay .pariwisata-button .btn-pariwisata-details {
-  background-color: #1FAB89;
+  background-color: #dc3545;
   color: #fff;
 }
 
 .section-paket-content .section-paket-list .card-pariwisata .card-pariwisata-overlay .pariwisata-button .btn-pariwisata-details:hover {
-  background-color: #62d2a2;
-  color: #fff;
+  background-color: #fff;
+  color: #dc3545;
 }
 
 .section-pelayanan-content {
   min-height: 550px;
-  background-color: #1FAB89;
+  background-color: #dc3545;
   margin-top: 40px;
 }
 
@@ -168,7 +168,7 @@ header .btn-getstarted:hover {
 }
 
 .section-footer {
-  background-color: #1FAB89;
+  background-color: #dc3545;
   color: #fff;
 }
 
@@ -188,7 +188,7 @@ header .btn-getstarted:hover {
 
 .section-details-header {
   min-height: 310px;
-  background: #62D2A2;
+  background: #dc3545;
   margin-top: -70px;
 }
 
@@ -201,11 +201,12 @@ header .btn-getstarted:hover {
   background-color: transparent;
   padding: 0;
   margin-bottom: 30px;
+  color: #fff;
 }
 
 .section-details-content .breadcrumb-item.active {
   font-weight: bold;
-  color: #071c4d;
+  color: #fff;
 }
 
 .section-details-content .card-details {
@@ -223,7 +224,7 @@ header .btn-getstarted:hover {
 
 .section-details-content .card-details p {
   font-size: 18px;
-  color: #b1b1b1;
+  color: rgb(104, 99, 99);
 }
 
 .section-details-content .card-details h3 {
@@ -241,13 +242,13 @@ header .btn-getstarted:hover {
 .section-details-content .card-details .trip-informations th {
   font-weight: 300;
   font-size: 18px;
-  color: #1FAB89;
+  color: #000;
 }
 
 .section-details-content .card-details .trip-informations td {
   font-weight: 300;
   font-size: 18px;
-  color: #b1b1b1;
+  color: rgb(104, 99, 99);
 }
 
 .section-details-content .card-details .payment-instructions {
@@ -268,19 +269,20 @@ header .btn-getstarted:hover {
 }
 
 .section-details-content .gallery .xzoom-container .xactive {
-  border: 4px solid #1abc9c;
+  border: 4px solid #dc3545;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .section-details-content .btn-whatsapp {
-  background-color: #1FAB89;
+  background-color: #dc3545;
   color: #fff;
 }
 
 .section-details-content .btn-whatsapp:hover {
-  background-color: #1abc9c;
-  color: #fff;
+  background-color: #fff;
+  color: #dc3545;
+  border: 1px solid #dc3545;
 }
 
 .section-details-content .btn-telpon {
