@@ -2,13 +2,14 @@ body{
    font-family: 'Assistant', sans-serif;
 }
 
-.bg-green{
-   background-color: #1FAB89;
+.bg-red {
+   background-color: #dc3545;
    color: #fff;
-}
-.text-green{
-   color: #1FAB89;
-}
+ }
+ 
+ .text-red {
+   color: #dc3545;
+ }
 header{
    padding: 180px 0 165px;
    margin-top: -70px;
@@ -26,12 +27,13 @@ header{
       font-size: 22px;
    }
    .btn-getstarted {
-      background-color: #1FAB89;
+      background-color: #dc3545;
       color: #fff;
 
       &:hover {
-         background-color: #62d2a2;
-         color: #fff;
+         background-color: #fff;
+         color: #dc3545;
+         border: 1px solid #dc3545;
       }
    }
 }
@@ -84,12 +86,13 @@ header{
             .pariwisata-button{
                border-radius: 10px;
                .btn-pariwisata-details{
-                  background-color: #1FAB89;
+                  background-color: #dc3545;
                   color: #fff;
 
                   &:hover {
-                     background-color: #62d2a2;
-                     color: #fff;
+                     background-color: #fff;
+                     color: #dc3545;
+                     border: 1px solid #dc3545;
                   }
                }
             }
@@ -100,7 +103,7 @@ header{
 
 .section-pelayanan-content{
    min-height: 550px;
-   background-color: #1FAB89;
+   background-color: #dc3545;
    margin-top: 40px;
    .section-list-pelayanan{
       color: #fff;
@@ -147,8 +150,8 @@ header{
    }
 }
 .section-footer{
-   background-color: #1FAB89;
-   color:#fff;
+   background-color: #dc3545;
+   color: #fff;
    h5{
       font-weight: bold;
       font-size: 20px;
@@ -165,7 +168,7 @@ header{
 
 .section-details-header {
    min-height: 310px;
-   background: #62D2A2;
+   background: #D26262;
    margin-top: -70px;
    }
 
@@ -180,15 +183,17 @@ header{
    }
 
    .breadcrumb-item {
+      color: #ddd;
       &.active {
          font-weight: bold;
-         color: #071c4d;
+         color: #ddd;
       }
    }
 
    .card-details {
       padding: 30px;
       border-radius: 11px;
+      margin-bottom: 30px;
    
       h1 {
          font-size: 24px;
@@ -217,7 +222,7 @@ header{
          th {
             font-weight: 300;
             font-size: 18px;
-            color: #1FAB89;
+            color: #000;
          }
          td {
             font-weight: 300;
@@ -248,18 +253,19 @@ header{
          }
 
          .xactive {
-            border: 4px solid #1abc9c;
+            border: 4px solid #dc3545;
             box-shadow: none;
          }
       }
    }
    .btn-whatsapp{
-      background-color: #1FAB89;
+      background-color: #dc3545;
       color: #fff;
    
       &:hover {
-         background-color: #1abc9c;
-         color: #fff;
+         background-color: #fff;
+         color: #dc3545;
+         border: 1px solid #dc3545;
       }
    }
    .btn-telpon{
