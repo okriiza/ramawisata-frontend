@@ -14,7 +14,7 @@ body {
 header {
   padding: 180px 0 165px;
   margin-top: -70px;
-  background-image: url("../image/header.jpg");
+  background-image: url("../image/logo/header.jpg");
   background-size: cover;
 }
 
@@ -236,7 +236,7 @@ header .btn-getstarted:hover {
 .section-details-content .card-details h3 {
   font-weight: 300;
   font-size: 14px;
-  color: #071c4d;
+  color: #dc3545;
 }
 
 .section-details-content .card-details .nb {
@@ -245,16 +245,15 @@ header .btn-getstarted:hover {
   color: #000;
 }
 
-.section-details-content .card-details .trip-informations th {
+.section-details-content .card-details .trip-informations ul {
   font-weight: 300;
   font-size: 18px;
   color: #000;
 }
 
-.section-details-content .card-details .trip-informations td {
+.section-details-content .card-details .trip-informations li {
   font-weight: 300;
   font-size: 18px;
-  color: #b1b1b1;
 }
 
 .section-details-content .card-details .payment-instructions {
